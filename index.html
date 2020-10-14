@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>EntrdAIO Proxy Formatter</title>
+  </head>
+  <body>
+    <div
+      class="container flex"
+      style="display: flex; justify-content: center; flex-direction: column"
+    >
+      <h1><img src="./EntrdAIO Logo.png" width="40" height="auto"></img> EntrdAIO Proxy Formatter</h1>
+      <textarea
+        class="w-100 mb-3"
+        id="textArea"
+        placeholder="ip:port:user:password"
+      ></textarea>
+      <div>
+        <button type="button" class="btn btn-primary" id="formatBtn">Format Proxies</button>
+        <button type="button" class="btn btn-success" id="copyBtn">Copy All Proxies</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
